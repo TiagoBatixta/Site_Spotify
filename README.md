@@ -1,2 +1,2 @@
 # Site_Spotify
-Pagina para fins de estudos sobre HTMl e CSS.
+Pagina para fins de estudos sobre HTML e CSS.
