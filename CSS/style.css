@@ -37,7 +37,7 @@ footer{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     line-height: 1.5;
 }
 
@@ -47,7 +47,7 @@ footer{
     padding: 10px;
     font-weight: bold;
     border: none;
-    margin: 0 0 0 500px;
+    /* margin: 0 0 0 500px; */
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -58,7 +58,7 @@ footer{
 }
 
 #menu{
-    background-color: #af2896;
+    background-color: #c46a03;
     padding: 0 25px;
     width: 150px;
     color: white;
@@ -70,4 +70,9 @@ footer{
     line-height: 1.5;
 }
 
-
+#logo{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
