@@ -12,7 +12,7 @@ body{
     width: 100vw;
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: rgb(128, 128, 128);
     border-radius: 10px;
 }
 
@@ -41,19 +41,19 @@ footer{
     line-height: 1.5;
 }
 
-#inscrever{
+.botao{
     border-radius: 17px;
     border-color: rgba(255, 255, 255, 0);
     padding: 10px;
     font-weight: bold;
     border: none;
-    position: absolute;
-    right: 0;
+    /* position: absolute;
+    right: 0; */
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
-#inscrever:hover{
+.botao:hover{
     transform: scale(1.03);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
