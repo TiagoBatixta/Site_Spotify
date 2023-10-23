@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "CircularSpBold";
+    src: url();
+}
 
 
 *{
@@ -9,36 +13,29 @@
 }
 
 body{
-    width: 100vw;
+    /* width: 100vw; */
     display: flex;
-    flex-direction: column;
-    background-color: rgb(128, 128, 128);
-    border-radius: 10px;
+    /* flex-direction: column; */
+    background-color: rgb(155, 154, 154);
+    padding: 8px 0px 8px 8px;
+    overflow-y: hidden;
 }
 
 header{
-    /* height: 84vh; */
-    padding: 25px;
-    text-align: center;
-    font-size: 12px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    line-height: 1.5;
+    
 }
 
 footer{
     background: linear-gradient(90deg, #af2896 0%, #509bf5 100%);
     color: white;
     padding: 25px;
-    /* position: relative; */
+    position: fixed;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
     text-transform: uppercase;
-    line-height: 1.5;
+    bottom: 0;
 }
 
 .botao{
@@ -59,22 +56,9 @@ footer{
 }
 
 #menu{
-    background-color: #c46a03;
-    padding: 0 25px;
-    width: 20%;
-    color: white;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-transform: none;
-    line-height: 1.5;
-    border-color: #509bf5;
+  
 }
 
 #logo{
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    display: block;
+   
 }
