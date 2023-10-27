@@ -21,9 +21,9 @@ body{
     overflow-y: hidden;
 }
 
-header{
+/* header{
     
-}
+} */
 
 footer{
     background: linear-gradient(90deg, #af2896 0%, #509bf5 100%);
@@ -55,10 +55,81 @@ footer{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-#menu{
-  
+aside{
+    width: 355px;
+}
+
+span{
+ color: white;   
+}
+
+.block{
+    background-color: #121212;
+    border-radius: 8px;
 }
 
 #logo{
-   
+    margin-top: 20px;
+    padding: 0px 24px;
+}
+
+#asidelist1{
+    padding: 8px 12px;
+}
+
+#asidelist1 li{
+    padding: 4px 12px;
+    cursor: pointer;
+}
+
+#asidelist1 li a{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 40px;
+}
+
+#asidelist1 li span{
+    line-height: 25.6px;
+}
+
+#asidelist1 li:not(li:hover):nth-child(2) span,
+#asidelist1 li:not(li:hover):nth-child(2) img,
+.libaryHeaderSection:not(.libaryHeaderSection:hover){
+    color: rgb(204, 204, 204);
+    filter: invert(0.3);
+    transition: all 0.2s ease-in;
+}
+
+.libaryHeaderSection{
+    cursor: pointer;
+    padding: 4px 8px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.libaryHeaderSection img {
+    margin-inline-end: 12px;    
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-height: calc(100% - 70px);
+}
+
+.libaryHeader{
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#imgplus{
+    padding: 8px;
+}
+
+#imgplus:not(#imgplus:hover){
+    filter: invert(0.3);
 }
