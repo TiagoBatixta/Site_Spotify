@@ -1,6 +1,16 @@
 @font-face {
+    font-family: "CircularSp";
+    src: local("CircularSp"), url(/fonts/CircularSp-Book-4eaffdf96f4c6f984686e93d5d9cb325.woff2);
+}
+
+@font-face {
     font-family: "CircularSpBold";
-    src: url();
+    src: local("CircularSpBold"), url(/fonts/CircularSp-Bold-fe1cfc14b7498b187c78fa72fb72d148.woff2);
+}
+
+@font-face {
+    font-family: "CircularSpTitle";
+    src: local("CircularSpTitle"), url(/fonts/CircularSpTitle-Bold-2fbf72b606d7f0b0f771ea4956a8b4d6.woff2);
 }
 
 * {
@@ -62,6 +72,10 @@ span {
     border-radius: 8px;
 }
 
+.block a {
+    font-family: "CircularSPbold";
+}
+
 #logo {
     margin-top: 20px;
     padding: 0px 24px;
@@ -112,6 +126,10 @@ span {
     margin-inline-end: 12px;
 }
 
+.libaryHeaderSection span {
+    font-family: "CircularSPbold";
+}
+
 nav {
     display: flex;
     flex-direction: column;
@@ -152,12 +170,14 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 4px;
+    font-family: "CircularSP";
 }
 
 .infoBoxTextContent p {
     font-size: 16px;
     line-height: 25.6px;
     color: rgb(255, 255, 255);
+    font-family: "CircularSPbold";
 }
 
 .infoBoxTextContent span {
@@ -181,6 +201,7 @@ nav {
     border-radius: 20px;
     border: 0px;
     min-block-size: 32px;
+    font-family: "CircularSPbold";
 }
 
 /* .infoBoxContentButton:hover{
@@ -201,14 +222,18 @@ nav {
     margin: 35px 0px 0px 0px;
     padding: 0px 24px;
     text-align: start;
-
+    font-family: "CircularSPtitle";
 }
 
 .link {
     margin-right: 16px;
     color: #a7a7a7;
     font-size: 11px;
+    padding: 5px;
+}
 
+.link:hover {
+    color: #dbdbdb;
 }
 
 .btnSecondary {
@@ -263,7 +288,14 @@ nav {
     border-radius: 500px;
     font-size: 16px;
     border: 0px;
-    font-family: 'cirularSpBold';
+    font-family: 'CircularSpBold';
+}
+
+.btnFooter:hover {
+    /* transform: scale(1.09); */
+    background-image: linear-gradient(90deg, #509bf5 0%, #af2896 100%);
+    color: white;
+    border: 1px solid rgb(175, 175, 175);
 }
 
 main {
@@ -343,6 +375,11 @@ main {
     border-radius: 50%;
 }
 
+.btnArrow:hover {
+    /* transform: scale(1.05); */
+    background-color: rgba(94, 94, 94, 0.4);
+}
+
 .btnLogin {
     color: black;
     padding: 8px 32px;
@@ -351,9 +388,15 @@ main {
     font-size: 16px;
 }
 
+.btnLogin:hover {
+    color: white;
+    background-color: #1fdf64;
+}
+
 .txtSingup {
     color: #a7a7a7;
     cursor: pointer;
+    font-family: "CircularSP";
 }
 
 .txtSingup:hover {
@@ -371,14 +414,33 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 40px;
+    height: 50px;
     margin-top: 14px;
+}
+
+.mainTitleTextContent h2 {
+    color: #ebebeb;
+    font-family: "CircularSPBold";
+    font-size: 26px;
+    /* padding-bottom: 8px; */
+}
+
+.mainTitleTextContent h2:hover {
+    /* transform: scale(1.05); */
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 .mainTitleTextContent span {
     color: #b3b3b3;
     font-family: "CircularSPBold";
     font-size: 14px;
+}
+
+.mainTitleTextContent span:hover {
+    transform: scale(1.05);
+    color: #e6e6e6;
+    text-decoration: underline;
 }
 
 .musicCardContent {
@@ -393,7 +455,7 @@ main {
     padding: 16px;
 }
 
-.musicCardContent img {
+.folderImg {
     width: 160px;
     height: 160px;
     margin-top: 17px;
@@ -461,6 +523,10 @@ main {
     margin-bottom: 12px;
 }
 
+.linkColumn ul p:hover {
+    color: #dddddd;
+}
+
 .linkColumn ul p:first-child {
     font-size: 16px;
     color: white;
@@ -498,11 +564,31 @@ hr {
     padding: 0 20px;
 }
 
-#txtCopy{
+#txtCopy {
     font-size: 14px;
     color: #a7a7a7;
     font-family: "CircularSP";
     margin-top: -50px;
     padding-bottom: 50px;
     line-height: 200px;
+}
+
+.cardplay {
+    width: 50px;
+    height: 50px;
+    background-color: #1fdf64;
+    border-radius: 50%;
+    padding: 10px;
+    display: none;
+    position: absolute;
+    top: -150px;
+    left: 100;
+}
+
+.cardplay:hover {
+    transform: scale(1.05);
+}
+
+.musicCardContent:hover .cardplay {
+    display: initial;
 }
