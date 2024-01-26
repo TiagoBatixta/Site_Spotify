@@ -1,2 +1,6 @@
-# Site_Spotify
-Pagina para fins de estudos sobre HTML e CSS.
+# Projeto - Spotify
+Desenvolvido para estudos e aprimoramentos em desenvolvimento Front-end.<br>
+Foi recriada toda a tela inicial do site, utilizando apenas HTML e CSS.  
+
+![image](https://github.com/TiagoBatixta/Site_Spotify/blob/main/Projeto_Final.png)
+
