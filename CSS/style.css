@@ -1,16 +1,16 @@
 @font-face {
     font-family: "CircularSp";
-    src: local("CircularSp"), url(/fonts/CircularSp-Book-4eaffdf96f4c6f984686e93d5d9cb325.woff2);
+    src: local("CircularSp"), url(./fonts/CircularSp-Book-4eaffdf96f4c6f984686e93d5d9cb325.woff2);
 }
 
 @font-face {
     font-family: "CircularSpBold";
-    src: local("CircularSpBold"), url(/fonts/CircularSp-Bold-fe1cfc14b7498b187c78fa72fb72d148.woff2);
+    src: local("CircularSpBold"), url(./fonts/CircularSp-Bold-fe1cfc14b7498b187c78fa72fb72d148.woff2);
 }
 
 @font-face {
     font-family: "CircularSpTitle";
-    src: local("CircularSpTitle"), url(/fonts/CircularSpTitle-Bold-2fbf72b606d7f0b0f771ea4956a8b4d6.woff2);
+    src: local("CircularSpTitle"), url(./fonts/CircularSpTitle-Bold-2fbf72b606d7f0b0f771ea4956a8b4d6.woff2);
 }
 
 * {
